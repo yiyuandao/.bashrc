@@ -102,8 +102,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# history serch with up,down key
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
-
-set tabstop=4
-set shiftwidth=4
